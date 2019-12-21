@@ -11,6 +11,7 @@ djangorestframework = "*"
 django-cors-headers = "*"
 pyjwt = "*"
 gunicorn = "*"
+django-heroku = "*"
 
 [requires]
 python_version = "3.8"
