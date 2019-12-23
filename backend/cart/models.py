@@ -39,4 +39,4 @@ class Item(models.Model):
     order_item = models.ForeignKey(Product, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.quantity
+        return '%s'%(self.quantity)
