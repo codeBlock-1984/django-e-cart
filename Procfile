@@ -1,1 +1,1 @@
-web: gunicorn backend.wsgi --log-file -
+web: PYTHONPATH=`pwd`/.. gunicorn backend.wsgi --log-file -
